@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UIFont{
+extension UIFont{
     
     class func getFontWith(size:CGFloat, fontName:String) -> UIFont {
         if SCREEN_WIDTH <= 500 {

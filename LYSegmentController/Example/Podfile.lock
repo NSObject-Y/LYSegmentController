@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LYSegmentController (0.1.0)
+  - LYSegmentController (1.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LYSegmentController: 658292236d81f662eea2b156e34931cc2e6d88ba
+  LYSegmentController: 272c4edc004982bbb6ab810889fbd3236564e473
 
 PODFILE CHECKSUM: ef2dc06abcab1c6d11e4c53a4caf44b91e875ce0
 

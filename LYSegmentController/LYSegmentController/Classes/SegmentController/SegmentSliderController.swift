@@ -65,8 +65,7 @@ public class SegmentSliderController: UIView {
                             self.segmentContent = SegmentContentController.init(frame: frame, childVcs: self.childsViewControllers!, parentViewController: self.hostViewController)
                             segmentContent!.delegate = self
                             self.addSubview(segmentContent!)
-                            self.bringSubview(toFront: self.navView!)
-                            
+                            self.bringSubviewToFront(self.navView!)
                         
                         }
                     }else{

@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UILabel {
+extension UILabel {
     class func getWidthWith(title:String, font:UIFont) -> CGFloat {
         let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 1000, height: 0))
         label.text = title

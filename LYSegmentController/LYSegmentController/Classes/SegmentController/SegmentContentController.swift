@@ -36,7 +36,7 @@ class SegmentContentController: UIView {
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         layout.scrollDirection = .horizontal
-        layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0)
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
         collectionView.frame = CGRect.init(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT)
@@ -70,7 +70,7 @@ class SegmentContentController: UIView {
     
     func setUI() {
         for childVc in childVcs {
-            parentViewController?.addChildViewController(childVc)
+            parentViewController?.addChild(childVc)
         }
         addSubview(collectionView)
         collectionView.reloadData()
