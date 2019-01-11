@@ -1,0 +1,6 @@
+framework module LYSegmentController {
+  umbrella header "LYSegmentController-umbrella.h"
+
+  export *
+  module * { export * }
+}

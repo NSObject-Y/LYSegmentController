@@ -1,0 +1,22 @@
+{
+  "name": "LYSegmentController",
+  "version": "0.1.0",
+  "summary": "A short description of LYSegmentController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NSObject_Y/LYSegmentController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NSObject_Y": "yangsui92@163.com"
+  },
+  "source": {
+    "git": "https://github.com/NSObject_Y/LYSegmentController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYSegmentController/Classes/**/*"
+}
